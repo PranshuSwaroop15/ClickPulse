@@ -12,8 +12,7 @@ ClickPulse is a full-stack real-time monitoring platform that tracks and visuali
 
 * Deployment: Hosted on AWS Lightsail (Ubuntu).
 
-<img width="792" height="1080" alt="Screenshot (300)" src="https://github.com/user-attachments/assets/656f16cf-fa62-478a-a1dc-daf73ee2300f" />
-
+[Architecture Diagram](https://miro.com/app/board/uXjVJN3tNLU=/?share_link_id=841833978868)
 
 
 ## 
