@@ -1,31 +1,3 @@
-//package org.example.clickpulse;
-//
-//import org.springframework.beans.factory.annotation.Value;
-//import org.springframework.kafka.core.KafkaTemplate;
-//import org.springframework.web.bind.annotation.*;
-//
-//import java.util.Map;
-//
-//@RestController
-//@RequestMapping("/api")
-//public class ActionController {
-//    private final KafkaTemplate<String, String> kafka;
-//    private final String topic;
-//
-//    public ActionController(KafkaTemplate<String, String> kafka,
-//                            @Value("${clickpulse.topic:clickpulse}") String topic) {
-//        this.kafka = kafka;
-//        this.topic = topic;
-//    }
-//
-//    @PostMapping("/action")
-//    public String send(@RequestBody Map<String, Object> body) {
-//        String action = String.valueOf(body.getOrDefault("action", "add_to_cart"));
-//        kafka.send(topic, action);
-//        return "queued: " + action;
-//    }
-//}
-
 package org.example.clickpulse;
 
 import org.springframework.http.ResponseEntity;
