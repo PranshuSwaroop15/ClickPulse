@@ -1,19 +1,3 @@
-//package org.example.clickpulse;
-//import io.micrometer.core.instrument.Counter;
-//import io.micrometer.core.instrument.MeterRegistry;
-//import org.springframework.context.annotation.Bean;
-//import org.springframework.context.annotation.Configuration;
-//
-//@Configuration
-//public class MetricsConfig {
-//
-//    public Counter clicksConsumedCounter(MeterRegistry registry) {
-//        return Counter.builder("clickpulse_clicks_consumed_total")
-//                .description("Total clicks consumed from Kafka")
-//                .register(registry);
-//    }
-//}
-
 package org.example.clickpulse;
 
 import io.micrometer.core.instrument.MeterRegistry;
